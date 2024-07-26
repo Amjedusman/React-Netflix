@@ -1,12 +1,13 @@
 
 import './App.css'
+import NavBar from './Components/NavBar/NavBar'
 
 function App() {
   
 
   return (
     <div>
-      <h2>Netflix</h2>
+      <NavBar/>
     </div>
   )
 }
