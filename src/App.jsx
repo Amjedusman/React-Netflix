@@ -1,6 +1,8 @@
 
 import './App.css'
+import Banner from './Components/Banner/Banner'
 import NavBar from './Components/NavBar/NavBar'
+import Rowpost from './Components/RowPost/Rowpost'
 
 function App() {
   
@@ -8,6 +10,8 @@ function App() {
   return (
     <div>
       <NavBar/>
+      <Banner/>
+      <Rowpost/>
     </div>
   )
 }
