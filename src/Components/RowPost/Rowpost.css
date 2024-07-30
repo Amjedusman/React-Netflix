@@ -12,3 +12,6 @@
     max-height: 250px;
     margin-right: 10px;
 }
+.posters::-webkit-scrollbar{
+    display: none;
+}
