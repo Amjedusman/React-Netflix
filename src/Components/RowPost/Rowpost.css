@@ -3,15 +3,37 @@
     margin-left: 20px;
 }
 .posters{
+    cursor: pointer;
     display: flex;
     padding: 20px;
     overflow-x: scroll;
-    overflow-y: hidden ;
+    overflow-y: hidden ; 
+    gap: 20px; 
 }
-.posters img{
-    max-height: 250px;
+.posterimg{
+    max-height: 200px;
+    height: 200px;
+    object-fit: cover;
     margin-right: 10px;
+    transition: transform 0.3s
 }
 .posters::-webkit-scrollbar{
     display: none;
+}
+.posters img:hover {
+    transform: scale(1.05); 
+}
+.moviename{
+    margin-top: 10px; 
+    font-size: 1em;
+    text-align: center;
+
+}
+.issmall{
+    max-height: 200px;
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+    transition: transform 0.3s
 }

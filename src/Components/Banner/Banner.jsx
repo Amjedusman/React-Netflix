@@ -19,7 +19,7 @@ function Banner() {
       });
   }, []);
 
-  const backgroundImage = movie ? `url("${imageurl}${movie.backdrop_path}")` : 'url("https://wallpaperaccess.com/full/2703652.png")';
+  const backgroundImage = movie ? `url("${imageurl}${movie.backdrop_path}")` : '")';
 
   return (
     <div className='banner' style={{ backgroundImage }}>
