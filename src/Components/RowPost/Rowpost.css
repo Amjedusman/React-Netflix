@@ -37,3 +37,67 @@
     margin-right: 10px;
     transition: transform 0.3s
 }
+/* General styling for the YouTube container */
+.ytube {
+    position: relative;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styling for the YouTube player */
+  .ytube .youtube-player {
+    width: 100%;
+    max-width: 900px;
+    height: 390px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Styling for the close button */
+  .ytube button {
+    margin-top: 10px;
+    background-color: #d8d7d7;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the close button */
+  .ytube button:hover {
+    background-color: #8a8787;
+  }
+  
+  /* Additional styling for responsiveness */
+  @media (max-width: 768px) {
+    .ytube .youtube-player {
+      height: 220px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ytube {
+      padding: 10px;
+    }
+  
+    .ytube .youtube-player {
+      height: 180px;
+    }
+  
+    .ytube button {
+      font-size: 18px;
+      padding: 3px 6px;
+    }
+  }
+  
